@@ -1,0 +1,16 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert("Mensagem Exibida no Alert")//
+info:
+  version: "1.0.0"
+  title: XSS img test
+  description: |
+    <img src="https://example.com/someimage.png" onload="alert('Mensagem no Alert')" />
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
