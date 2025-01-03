@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Test
-  description: "<img src='x' onerror='console.log(document.cookie)'>"
+  description: "<img src='x' onerror='var a=%22alert(1)%22;eval(a)'>"
   version: production
 
 
