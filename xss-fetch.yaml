@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Test
-  description: "<img src='x' onerror='alert(%22XSS%22)'>"
+  description: "<img src='x' onerror='setTimeout(function(){ alert(1) }, 100)'>"
   version: production
 
 
