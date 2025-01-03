@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert("Mensagem Exibida no Alert")//
+    authorizationUrl: javascript:alert("YOU ARE HACKED")//
 info:
   version: "1.0.0"
   title: XSS img test
