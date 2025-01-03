@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: XSS Test
-  description: "<button onclick='alert(1)'>Click me</button>"
+  description: "<a href='javascript:alert(1)'>Click me</a>"
   version: production
 
 
